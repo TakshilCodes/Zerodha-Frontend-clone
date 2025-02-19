@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerlist{
+    line-height: 2;
+    font-size: 17px;
+    color: #666666;
+}
+
+.footerlist:hover{
+    color: #387ED1;
+}
+
+@media (max-width: 760px) {
+    .platforms {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .ToRemove{
+        display: none;
+    }
+}
