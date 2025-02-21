@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Logo from '../assets/logo.svg';
 import menuopen from '../assets/Icon/menu.png';
 import menuclose from '../assets/Icon/close.png';
@@ -8,6 +8,7 @@ import kiteConnectLogo from '../assets/Menu/kite-connect.svg';
 import coinLogo from '../assets/Menu/coin.svg';
 import Varsitylogo from '../assets/Menu/varsity.png';
 import TradingQAlogo from '../assets/Menu/tqna.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   // Manage menu open/closed state
@@ -26,11 +27,11 @@ const Navbar = () => {
         </div>
         <div>
           <div className="hidden md:flex items-center gap-10">
-            <a href="" className='hover:text-[#387ED1]'>Signup</a>
-            <a href="" className='hover:text-[#387ED1]'>About</a>
-            <a href="" className='hover:text-[#387ED1]'>Products</a>
-            <a href="" className='hover:text-[#387ED1]'>Pricing</a>
-            <a href="" className='hover:text-[#387ED1]'>Support</a>
+            <Link to="/Signup" className='hover:text-[#387ED1]'>Signup</Link>
+            <Link to="" className='hover:text-[#387ED1]'>About</Link>
+            <Link to="" className='hover:text-[#387ED1]'>Products</Link>
+            <Link to="" className='hover:text-[#387ED1]'>Pricing</Link>
+            <Link to="" className='hover:text-[#387ED1]'>Support</Link>
             <button className='cursor-pointer' onClick={handleMenuClick}>
               <img src={isMenuOpen ? menuclose : menuopen} alt="Menu" className='w-7' />
             </button>

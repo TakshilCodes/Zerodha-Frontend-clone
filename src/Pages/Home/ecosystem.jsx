@@ -1,6 +1,6 @@
-import EcosystemImage from '../assets/ecosystem.png'
-import arrowright from '../assets/Icon/arrowright.png'
-import presslogo from '../assets/press-logos.png'
+import EcosystemImage from '../../assets/Home/ecosystem.png'
+import arrowright from '../../assets/Icon/arrowright.png'
+import presslogo from '../../assets/Home/press-logos.png'
 
 const Ecosystem = () => {
   return (<>

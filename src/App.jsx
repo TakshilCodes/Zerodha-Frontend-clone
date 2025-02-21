@@ -1,22 +1,25 @@
 import Navbar from './sections/navbar.jsx'
-import Hero from './sections/hero.jsx'
-import Ecosystem from './sections/ecosystem.jsx'
-import Pricing from './sections/pricing.jsx'
-import Marketeducations from './sections/marketeducations.jsx'
-import Openacount from './sections/openacount.jsx'
 import Footer from './sections/footer.jsx'
+import Home from './Pages/Home/home.jsx';
+import Signup from './Pages/Signup/signup.jsx'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Ecosystem/>
-      <Pricing/>
-      <Marketeducations/>
-      <Openacount/>
-      <Footer/>
+    <Router>
+        <Navbar/>
+        <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/Signup' element={<Signup/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/' element={<Home/>}/>
+        </Routes>
+        <Footer/>
+    </Router>
     </>
   )
 }

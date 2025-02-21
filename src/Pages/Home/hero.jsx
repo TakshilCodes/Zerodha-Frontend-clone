@@ -1,5 +1,5 @@
-import langingImage from '../assets/landing.png'
-import Button from '../components/button'
+import langingImage from '../../assets/Home/landing.png'
+import Button from '../../components/button'
 
 const Hero = () => {
   return (

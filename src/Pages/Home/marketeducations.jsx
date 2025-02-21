@@ -1,5 +1,5 @@
-import arrowright from '../assets/Icon/arrowright.png'
-import education from '../assets/index-education.svg'
+import arrowright from '../../assets/Icon/arrowright.png'
+import education from '../../assets/Home/index-education.svg'
 
 const Marketeducations = () => {
   return (

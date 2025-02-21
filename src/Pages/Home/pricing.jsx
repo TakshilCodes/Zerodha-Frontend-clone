@@ -1,6 +1,6 @@
-import arrowright from '../assets/Icon/arrowright.png'
-import price1 from '../assets/pricing-eq.svg'
-import price2 from '../assets/other-trades.svg'
+import arrowright from '../../assets/Icon/arrowright.png'
+import price1 from '../../assets/Home/pricing-eq.svg'
+import price2 from '../../assets/Home/other-trades.svg'
 
 const Pricing = () => {
   return (
