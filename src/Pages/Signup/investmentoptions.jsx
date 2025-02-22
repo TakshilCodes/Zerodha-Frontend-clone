@@ -45,8 +45,8 @@ const Investmentoptions = () => {
                     </div>
                 </div>
             </div>
-            
-            <div className='my-10'><Button label="Explore Investments"/></div>
+
+            <div className='my-10'><Button label="Explore Investments" /></div>
         </div>
     );
 };
