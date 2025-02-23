@@ -28,7 +28,7 @@ const Navbar = () => {
         <div>
           <div className="hidden md:flex items-center gap-10">
             <Link to="/Signup" className='hover:text-[#387ED1]'>Signup</Link>
-            <Link to="" className='hover:text-[#387ED1]'>About</Link>
+            <Link to="/About" className='hover:text-[#387ED1]'>About</Link>
             <Link to="" className='hover:text-[#387ED1]'>Products</Link>
             <Link to="" className='hover:text-[#387ED1]'>Pricing</Link>
             <Link to="" className='hover:text-[#387ED1]'>Support</Link>
