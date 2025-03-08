@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-10">
             <Link to="/Signup" className='hover:text-[#387ED1]'>Signup</Link>
             <Link to="/About" className='hover:text-[#387ED1]'>About</Link>
-            <Link to="" className='hover:text-[#387ED1]'>Products</Link>
+            <Link to="/Product" className='hover:text-[#387ED1]'>Products</Link>
             <Link to="" className='hover:text-[#387ED1]'>Pricing</Link>
             <Link to="" className='hover:text-[#387ED1]'>Support</Link>
             <button className='cursor-pointer' onClick={handleMenuClick}>
@@ -52,22 +52,22 @@ const Navbar = () => {
               <div className="platforms">
                 <img src={kiteLogo} alt="Kite Logo" className='w-15' />
                 <p className='text-md text-black'>Kite</p>
-                <p className='ToRemove text-[13px] text-gray-400 font-semibold'>Trading platform</p>
+                <p className='ToRemove text-[10px] text-gray-400'>Trading platform</p>
               </div>
               <div className="platforms">
                 <img src={consolelogo} alt="Console Logo" className='w-15' />
                 <p className='text-md text-black'>Console</p>
-                <p className='ToRemove text-[13px] text-gray-400 font-semibold'>Backoffice</p>
+                <p className='ToRemove text-[10px] text-gray-400'>Backoffice</p>
               </div>
               <div className="platforms">
                 <img src={kiteConnectLogo} alt="Kite Connect Logo" className='w-15' />
                 <p className='text-md text-black'>Kite Connect</p>
-                <p className='ToRemove text-[13px] text-gray-400 font-semibold'>Trading APIs</p>
+                <p className='ToRemove text-[10px] text-gray-400'>Trading APIs</p>
               </div>
               <div className="platforms">
                 <img src={coinLogo} alt="Coin Logo" className='w-15' />
                 <p className='text-md text-black'>Coin</p>
-                <p className='ToRemove text-[13px] text-gray-400 font-semibold'>Mutal funds</p>
+                <p className='ToRemove text-[10px] text-gray-400'>Mutal funds</p>
               </div>
               <div className="platform flex justify-center items-center md:hidden mt-3">
                 <img src={Varsitylogo} alt="Varsity Logo" className='w-10 mr-5' />

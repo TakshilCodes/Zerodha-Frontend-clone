@@ -32,11 +32,11 @@ const Faqsection = () => {
                 </div>
 
                 <div className="flex flex-row justify-between">
-                <h3 className="text-lg font-medium">{dataItem.question}</h3>
+                  <h3 className="text-lg font-medium">{dataItem.question}</h3>
 
-                <span className="text-xl transition duration-200"> 
-                  {selected === dataItem.id ? "-" : "+"}
-                </span>
+                  <span className="text-xl transition duration-200">
+                    {selected === dataItem.id ? "-" : "+"}
+                  </span>
                 </div>
               </div>
 

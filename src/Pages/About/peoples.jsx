@@ -21,7 +21,7 @@ const Peoples = () => {
 
         <div className='flex flex-row justify-center items-center gap-10 my-20'>
           <div className='flex flex-col items-center'>
-            <img src={nitinkamat} alt="nitinkamat" className='rounded-full w-65 h-65'/>
+            <img src={nitinkamat} alt="nitinkamat" className='rounded-full w-65 h-65' />
             <p className='text-xl mt-4'>Nithin Kamath</p>
             <p className='paracolor mt-4'>Founder, CEO</p>
           </div>
@@ -31,10 +31,11 @@ const Peoples = () => {
 
               He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC). <br /> <br />
 
-              Playing basketball is his zen.</p><br /> 
-              <p>Connect on <a href="" className="text-[#387ED1]">Homepage </a>/ <a href="" className="text-[#387ED1]">TradingQnA </a>/ <a href="" className="text-[#387ED1]">Twitter</a></p>
+              Playing basketball is his zen.</p><br />
+            <p>Connect on <a href="" className="text-[#387ED1] hover:text-black">Homepage </a>/ <a href="" className="text-[#387ED1] hover:text-black">TradingQnA </a>/ <a href="" className="text-[#387ED1] hover:text-black">Twitter</a></p>
           </div>
         </div>
+
         <div className="grid grid-cols-3 mx-auto w-[55%] gap-10">
           {peoples.map((people) => (
             <div key={people.id} className="flex flex-col items-center relative h-auto">
