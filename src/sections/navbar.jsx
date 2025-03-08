@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link to="/Signup" className='hover:text-[#387ED1]'>Signup</Link>
             <Link to="/About" className='hover:text-[#387ED1]'>About</Link>
             <Link to="/Product" className='hover:text-[#387ED1]'>Products</Link>
-            <Link to="" className='hover:text-[#387ED1]'>Pricing</Link>
+            <Link to="/Pricing" className='hover:text-[#387ED1]'>Pricing</Link>
             <Link to="" className='hover:text-[#387ED1]'>Support</Link>
             <button className='cursor-pointer' onClick={handleMenuClick}>
               <img src={isMenuOpen ? menuclose : menuopen} alt="Menu" className='w-7' />

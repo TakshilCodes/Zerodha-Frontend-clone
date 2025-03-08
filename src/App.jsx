@@ -4,10 +4,10 @@ import Home from './Pages/Home/home.jsx';
 import Signup from './Pages/Signup/signup.jsx'
 import About from './Pages/About/about.jsx'
 import Products from './Pages/Products/Products.jsx'
+import Pricing from './Pages/Price/price.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
     <>
     <Router>
@@ -17,7 +17,7 @@ function App() {
             <Route path='/Signup' element={<Signup/>}/>
             <Route path='/About' element={<About/>}/>
             <Route path='/Product' element={<Products/>}/>
-            <Route path='/' element={<Home/>}/>
+            <Route path='/Pricing' element={<Pricing/>}/>
             <Route path='/' element={<Home/>}/>
         </Routes>
         <Footer/>
