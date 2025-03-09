@@ -1,87 +1,93 @@
-# Zerodha Landing Page
+# Zerodha Frontend Clone
 
-A modern and responsive replica of the **Zerodha** landing page built using **React.js** and **Tailwind CSS**. This project serves as a frontend development practice to enhance UI/UX skills while replicating a well-known financial services platform.
-
-## 🚀 Table of Contents
-
-- Introduction
-- Features
-- Technologies Used
-- Installation
-- Usage
-- Contributing
+This is a **fully functional frontend clone** of [Zerodha](https://zerodha.com/), India's leading stock brokerage platform. Initially, only the **landing page** was developed, but now the project has been upgraded to **include all major pages**, providing a seamless and responsive UI experience.
 
 ---
 
-## 📌 Introduction
+## 🚀 Features
 
-Zerodha is one of India's largest stock brokerage firms, providing a seamless trading experience through its online platform. This project is a **frontend-only** replica of the Zerodha landing page, focusing on **modern UI and responsiveness** using **React.js and Tailwind CSS**.
-
----
-
-## ✨ Features
-
-- ✅ **Responsive Design** – Works smoothly across all devices and screen sizes.
-- 🎨 **Modern UI with Tailwind CSS** – Styled with Tailwind CSS for a sleek and consistent appearance.
-- ⚡ **Optimized Performance** – Fast-loading interface using React and Vite.
-- 📄 **Reusable Components** – Well-structured React components for scalability and reusability.
+- ✅ **Complete Frontend Clone** – All primary pages of Zerodha replicated with a clean UI.
+- ✅ **Responsive Design** – Optimized for all screen sizes and devices.
+- ✅ **Modern UI** – Designed to closely resemble Zerodha’s official website.
+- ✅ **Fast & Optimized** – Built with **Vite** for a blazing-fast development experience.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **React.js** – Component-based UI framework
-- **Tailwind CSS** – Utility-first CSS framework
-- **Vite** – Fast build tool for modern web apps
-- **Git & GitHub** – Version control
+- **React.js** – JavaScript library for building UI components.
+- **Tailwind CSS** – Utility-first CSS framework for styling.
+- **Vite** – Fast build tool for modern web projects.
 
 ---
 
-## 🔧 Installation
+## 📦 Installation & Setup
 
-To set up and run the project locally, follow these steps:
+Follow these steps to set up and run the project on your local machine:
 
+### 1️⃣ Clone the repository:
 ```bash
-# Clone the repository
-git clone https://github.com/TakshilCodes/Zerodha-landing-page.git
+git clone https://github.com/TakshilCodes/Zerodha-Frontend-clone.git
+```
 
-# Navigate to the project directory
-cd Zerodha-landing-page
+### 2️⃣ Navigate into the project directory:
+```bash
+cd Zerodha-Frontend-clone
+```
 
-# Install dependencies
+### 3️⃣ Install dependencies:
+```bash
 npm install
+```
 
-# Start the development server
+### 4️⃣ Run the development server:
+```bash
 npm run dev
 ```
 
-The project will now be running on **localhost:5173** (or the port provided by Vite).
+This will start the local server. Now, open your browser and go to:
 
----
-
-## 📌 Usage
-
-- Open the project in a browser to view the **Zerodha Landing Page Clone**.
-- Modify the React components and Tailwind classes as needed to experiment with different styles and layouts.
-- Test responsiveness by resizing the browser window or using DevTools.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve the project, follow these steps:
-
-```bash
-# Fork the repository
-
-# Create a new feature branch
-git checkout -b feature-your-feature-name
-
-# Make your changes and commit
-git commit -m "Added new feature: [feature name]"
-
-# Push your branch
-git push origin feature-your-feature-name
-
-# Open a Pull Request and describe your changes
 ```
+http://localhost:3000
+```
+
+---
+
+## 📌 Project Structure
+
+```
+Zerodha-Frontend-clone/
+│── public/            # Static assets
+│── src/
+│   ├── components/    # Reusable React components
+│   ├── pages/         # Different pages (About, Signup, etc.)
+│   ├── assets/        # Images, icons, etc.
+│   ├── App.js         # Main application file
+│   ├── index.js       # Entry point
+│── package.json       # Dependencies and scripts
+│── tailwind.config.js # Tailwind configuration
+│── vite.config.js     # Vite configuration
+│── README.md          # Project documentation
+```
+
+---
+
+## 📢 Contributing
+
+🙌 **Contributions are welcome!** If you’d like to contribute:
+
+1. **Fork** this repository.
+2. **Clone** it to your local system.
+3. Create a **new branch** for your feature or bug fix.
+4. Make your changes and **commit** them.
+5. Push your changes and **create a pull request**.
+
+---
+
+## 📌 Disclaimer
+
+This project is purely for **educational purposes** and is not affiliated with, endorsed by, or connected to **Zerodha** in any way. It does not include any backend or real trading functionalities.
+
+---
+
+💻 **Made with ❤️ by [TakshilCodes](https://github.com/TakshilCodes/)**

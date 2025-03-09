@@ -5,25 +5,25 @@ const Demataccount = () => {
     return (
         <div>
             <h1 className="text-4xl text-center mt-15">Steps to open a demat account with Zerodha</h1>
-                <div className='Section1 flex justify-center items-center gap-10 mt-15'>
+                <div className='Section1 flex flex-col  md:flex-row justify-center items-center gap-10 mt-15'>
                     <img src={demataccountimage} alt="demataccountimage" />
                     <div className='steps'>
-                        <div className='flex items-center gap-5 border-b w-110 py-5 border-zinc-300'>
+                        <div className='flex items-center gap-5 border-b w-90 md:w-110 py-5 border-zinc-300'>
                             <div className="w-9 h-9 flex items-center justify-center rounded-full border border-zinc-200 text-md">01</div>
                             <p  className='text-xl'>Enter the requested details</p> 
                         </div>
-                        <div className='flex items-center gap-5 border-b w-110 py-5 border-zinc-300'>
+                        <div className='flex items-center gap-5 border-b w-90 md:w-110 py-5 border-zinc-300'>
                             <div className="w-9 h-9 flex items-center justify-center rounded-full border border-zinc-200 text-md">02</div>
                             <p  className='text-xl'>Complete e-sign & verification</p> 
                         </div>
-                        <div className='flex items-center gap-5 border-b w-110 py-5 border-zinc-300'>
+                        <div className='flex items-center gap-5 border-b w-90 md:w-110 py-5 border-zinc-300'>
                             <div className="w-9 h-9 flex items-center justify-center rounded-full border border-zinc-200 text-md">03</div>
                             <p  className='text-xl'>Start investing!</p> 
                         </div>
                     </div>
                 </div>
 
-                <div className='Section2 flex justify-center items-center gap-20 my-30'>
+                <div className='Section2 flex flex-col md:flex-row justify-center items-center gap-20 my-30'>
 
                     <div>
                         <img src={benefitsimage} alt="benefitsimage" className='w-90'/>

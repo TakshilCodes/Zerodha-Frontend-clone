@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link to="/About" className='hover:text-[#387ED1]'>About</Link>
             <Link to="/Product" className='hover:text-[#387ED1]'>Products</Link>
             <Link to="/Pricing" className='hover:text-[#387ED1]'>Pricing</Link>
-            <Link to="" className='hover:text-[#387ED1]'>Support</Link>
+            <Link to="/Support" className='hover:text-[#387ED1]'>Support</Link>
             <button className='cursor-pointer' onClick={handleMenuClick}>
               <img src={isMenuOpen ? menuclose : menuopen} alt="Menu" className='w-7' />
             </button>
@@ -42,11 +42,11 @@ const Navbar = () => {
           <div className={`bg-white mt-5 shadow-md absolute right-0 md:right-60 flex-col ${isMenuOpen ? 'flex' : 'hidden'}`}>
             {/* Menu links and content */}
             <div className="flex items-center gap-5 text-nd p-5 justify-center md:hidden">
-              <a href="" className='hover:text-[#387ED1]'>Signup</a>
-              <a href="" className='hover:text-[#387ED1]'>About</a>
-              <a href="" className='hover:text-[#387ED1]'>Products</a>
-              <a href="" className='hover:text-[#387ED1]'>Pricing</a>
-              <a href="" className='hover:text-[#387ED1]'>Support</a>
+            <Link to="/Signup" className='hover:text-[#387ED1]'>Signup</Link>
+            <Link to="/About" className='hover:text-[#387ED1]'>About</Link>
+            <Link to="/Product" className='hover:text-[#387ED1]'>Products</Link>
+            <Link to="/Pricing" className='hover:text-[#387ED1]'>Pricing</Link>
+            <Link to="/Support" className='hover:text-[#387ED1]'>Support</Link>
             </div>
             <div className='menu1 md:flex flex-row gap-1 md:gap-30 md:p-5 my-10 md:my-0'>
               <div className="platforms">

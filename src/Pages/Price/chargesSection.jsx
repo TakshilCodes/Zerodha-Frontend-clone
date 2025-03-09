@@ -7,7 +7,7 @@ const ChargesSection = () => {
       <h1 className="text-2xl mb-6">Charges explained</h1>
 
       {/* Two-Column Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10">
         {/* Left Column */}
         <div className="space-y-6">
           <Section

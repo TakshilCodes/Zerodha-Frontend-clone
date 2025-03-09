@@ -14,7 +14,7 @@ const Faqsection = () => {
       <h1 className="text-3xl font-medium  mb-6">FAQs</h1>
 
 
-      <div className="w-[60%]">
+      <div className="md:w-[60%]">
         {FAQdata && FAQdata.length > 0 ? (
           FAQdata.map((dataItem) => (
             <div

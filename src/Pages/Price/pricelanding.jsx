@@ -9,7 +9,7 @@ const Pricelanding = () => {
             <p className="text-xl paracolor my-5">List of all charges and taxes</p>
         </div>
 
-        <div className='flex justify-center gap-10 mt-40'>
+        <div className='flex justify-center md:flex-row flex-col gap-10 mt-40'>
             <div className='flex justify-center flex-col items-center'>
                 <img src={price1} alt="image" className='w-60'/>
                 <h1 className='text-3xl my-5'>Free equity delivery</h1>

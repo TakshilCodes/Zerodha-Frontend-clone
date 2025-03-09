@@ -23,10 +23,10 @@ const PricingSection = () => {
   return (
     <div className="mt-20">
 
-      <div className="flex space-x-6 mb-6 w-250 mx-auto border-b border-zinc-300">
+      <div className="flex md:space-x-6 mb-6 md:w-250 md:mx-auto border-b border-zinc-300">
         <button
           onClick={() => setDisplayContent("equity")}
-          className={`px-8 py-4 text-2xl font-medium cursor-pointer ${
+          className={`px-8 py-4 md:text-2xl font-medium cursor-pointer ${
             displayContent === "equity"
               ? "border-b-2 border-blue-600 text-black"
               : "text-blue-500 hover:text-black"
@@ -36,7 +36,7 @@ const PricingSection = () => {
         </button>
         <button
           onClick={() => setDisplayContent("currency")}
-          className={`px-8 py-4 text-2xl font-medium cursor-pointer ${
+          className={`px-8 py-4 md:text-2xl font-medium cursor-pointer ${
             displayContent === "currency"
               ? "border-b-2 border-blue-600 text-black"
               : "text-blue-500 hover:text-black"
@@ -46,7 +46,7 @@ const PricingSection = () => {
         </button>
         <button
           onClick={() => setDisplayContent("commodity")}
-          className={`px-8 py-4 text-2xl font-medium cursor-pointer ${
+          className={`md:px-8 md:py-4 md:text-2xl font-medium cursor-pointer ${
             displayContent === "commodity"
               ? "border-b-2 border-blue-600 text-black"
               : "text-blue-500 hover:text-black"
@@ -56,9 +56,9 @@ const PricingSection = () => {
         </button>
       </div>
 
-      <div className="max-w-5xl mx-auto">{pricingTables[displayContent]}</div>
+      <div className="max-w-5xl md:mx-auto">{pricingTables[displayContent]}</div>
 
-      <p className="text-xl text-center my-10">
+      <p className="md:text-xl text-center my-10">
         <a href="#" className="text-blue-600">
           Calculate your costs upfront 
         </a> using our brokerage calculator

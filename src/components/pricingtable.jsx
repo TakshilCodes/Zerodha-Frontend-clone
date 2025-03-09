@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingTable = ({ data }) => {
   return (
-    <div className="w-full max-w-6xl mx-auto bg-white shadow-md overflow-hidden text-[13px]">
+    <div className="md:w-full max-w-6xl md:mx-auto bg-white shadow-md overflow-hidden text-[13px]">
       {/* Table Header */}
       <div className="flex bg-gray-50">
         {data.headers.map((header, index) => (

@@ -4,7 +4,7 @@ import rightarrow from '../assets/Icon/arrowright.png'
 
 const Displayproducts1 = ({ image, head, para, link1, link2 }) => {
   return (
-    <div className='flex justify-center items-center gap-30 mt-30'>
+    <div className='flex flex-col md:flex-row justify-center items-center gap-30 mt-30'>
       <div>
         <img src={image} alt="image" className='hover:opacity-70 hover:cursor-pointer'/>
       </div>
